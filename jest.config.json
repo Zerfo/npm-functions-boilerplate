@@ -1,0 +1,7 @@
+{
+  "bail": true,
+  "collectCoverageFrom": ["src/**/*.ts"],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  }
+}

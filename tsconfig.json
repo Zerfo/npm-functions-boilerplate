@@ -1,0 +1,20 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "plus": ["src/plus/index.ts"]
+    },
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "outDir": "dist",
+    "declaration": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "allowUnreachableCode": false // правило ESLint: no-unreachable работает хуже
+  }
+}
